@@ -127,13 +127,19 @@ Uygulama ilk çalıştığında, `DatabaseSeeder` sınıfı test verilerini otom
 
 ```markdown
 📦 adybis
-┣ 📂 base – Temel auth, konfigürasyon(Secutiry,OpenAPI,Properties vs.), 2FA auth, exception yönetimi,yardımcı sınıflar ve seeder
+┣ 📂 base
+  ┣ 📂 auth - Temel auth, , 2FA auth sınıfları
+  ┣ 📂 configs – Konfigürasyon(Secutiry,OpenAPI,Properties vs.) sınıfları
+  ┣ 📂 exceptions - Exception yönetimi
+  ┣ 📂 security – JWT ve güvenlik yapılandırmaları
+  ┣ 📂 seeder – Database seeder sınıfları
+  ┗  📂 utils – Yardımcı sınıflar
 ┣ 📂 user – Kullanıcı modelleri, servisleri ve DTO’lar
 ┣ 📂 role – Rol modelleri, servisleri ve DTO’lar
 ┣ 📂 help – Yardım noktaları ve talepler
 ┣ 📂 rescue – Kurtarma ekibi ve atamaları
-┣ 📂 common – Ortak soyut sınıflar
-┗ 📂 security – JWT ve güvenlik yapılandırmaları
+┗ 📂 common – Ortak soyut sınıflar
+
 ⚙️ resources
 ┣ 📂 db – Migration dosyaları
 ┗ 📂 templates – Email template html dosyası

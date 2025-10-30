@@ -168,6 +168,10 @@ Kullanmak için test kullanıcıları yada kayıt olduğunuz kullanıcı ile log
 | rescue team | rescueteam1    | res1cu123?  |
 | rescue team | rescueteam2    | res2cu123?  |
 
+## Database Şeması
+
+[Dbdiagram io](https://dbdiagram.io/d/adybis_db-68e8fda8d2b621e4223e8d82) ile database şemasına erişebilirsiniz.
+
 ## 🪪 Lisans
 
 Bu proje [GPL Lisansı](LICENSE) ile lisanslanmıştır.

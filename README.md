@@ -141,9 +141,20 @@ Uygulama ilk çalıştığında, `DatabaseSeeder` sınıfı test verilerini otom
 
 ## 🔑 Örnek API İstekleri
 
-Uygulamayı çalıştırdıktan sonra [Swagger-ui](http://localhost:8080/swagger-ui/index.html#/) ile endpointlere erişebilirsiniz. Kullanmak için test kullanıcıları yada kendi kayıt olduğunuz kullanıcı ile login olmanız gerekmektedir. Hesap onayından(verify) geçmemiş kullanıcılar endpointlere erişemez.
+Uygulamayı çalıştırdıktan sonra [Swagger-ui](http://localhost:8080/swagger-ui/index.html#/) ile endpointlere erişebilirsiniz. 
+
+<img width="1353" height="584" alt="Image" src="https://github.com/user-attachments/assets/bec2e9a1-28c9-4bc5-8c8f-048ec2620340" />
 
 ## ☑️ Hesap Doğrulama
+
+Kullanmak için test kullanıcıları yada kayıt olduğunuz kullanıcı ile login olmanız gerekmektedir. Hesap onayından(verify) geçmemiş kullanıcılar endpointlere erişemez.
+
+<img width="1475" height="458" alt="Image" src="https://github.com/user-attachments/assets/2660790b-ebb4-4f5f-803e-4c41b8affe7a" />
+
+
+[Mail Hog](http://localhost:8025/) aracılığı ile 2FA ve Verify için gönderilen kod maillerine erişebilirsiniz.
+
+<img width="2557" height="501" alt="Image" src="https://github.com/user-attachments/assets/1564a3f2-ae09-4ba4-a94c-254c6b190472" />
 
 ## 🧪 Test Kullanıcıları
 

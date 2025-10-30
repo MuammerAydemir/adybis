@@ -1,0 +1,25 @@
+services:
+  postgres:
+    image: ${POSTGRES_IMAGE}
+    container_name: postgres_db
+    env_file:
+      - .env
+    ports:
+      - ${POSTGRES_PORTS}
+    volumes:
+      - posgres_data:${POSTGRES_VOLUME_PATH}
+    networks:
+      - adybis_network
+  mailhog:
+    image: mailhog/mailhog:latest
+    container_name: mailhog
+    restart: unless-stopped
+    ports:
+      - "1025:1025" # SMTP Port
+      - "8025:8025" # Web UI
+volumes:
+  posgres_data:
+
+networks:
+  adybis_network:
+    driver: ${NETWORK_DRIVER_TYPE}

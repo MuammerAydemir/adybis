@@ -1,0 +1,5 @@
+ALTER TABLE users
+ADD COLUMN password_expiration_date DATE NOT NULL,
+ADD COLUMN is_enable BOOLEAN NOT NULL DEFAULT TRUE;
+
+
